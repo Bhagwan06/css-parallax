@@ -1,0 +1,64 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100wv;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    display: flex;
+
+}
+
+.bg-1 .parallax {
+    background-image: url('assets/a.jpg'); 
+}
+
+.bg-2 .parallax {
+    background-image: url('assets/b.jpg'); 
+}
+
+.bg-3 .parallax {
+    background-image: url('assets/c.jpg'); 
+}
+
+.bg-4 .parallax {
+    background-image: url('assets/d.jpg'); 
+}
+
+.content-1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.content-1 p {
+    font-size: 24px;
+}
+
+.info{
+    height: 100px;
+    width: 150px;
+    justify-content: center;
+    background-color: cadetblue;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding: 24px;
+    align-content: center;
+
+}
