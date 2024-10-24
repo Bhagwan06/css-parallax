@@ -1,21 +1,20 @@
 body {
-    height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 .parallax {
-    height: 100vh;
+    height: 80vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100wv;
+    width: 95%;
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding: 64px;
     display: flex;
+    margin: auto;
 
 }
 
@@ -36,22 +35,28 @@ body {
 }
 
 .content-1 {
-    height: 100vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: start;
     padding: 20px;
     background-color: white;
+    
 }
 
 .content-1 p {
     font-size: 24px;
+    color: #333;
+    text-align: center;
+    padding: 12px;
+    justify-content: center;
 }
 
 .info{
+    display: flex;
     height: 100px;
-    width: 150px;
+    width: 250px;
     justify-content: center;
     background-color: cadetblue;
     align-items: center;
@@ -61,4 +66,14 @@ body {
     padding: 24px;
     align-content: center;
 
+}
+
+.info:hover {
+    background-color: darkcyan;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.bg-1{
+text-align: center;
 }
