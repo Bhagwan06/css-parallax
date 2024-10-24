@@ -10,7 +10,7 @@ This project demonstrates a parallax scrolling effect using HTML and CSS. It con
 
 ## Demo
 
-You can view a live demo of the project [(https://github.com/Bhagwan06/css-parallax.git)].
+You can view a live demo of the project [(https://bhagwan06.github.io/css-parallax/)].
 
 ## Installation
 
